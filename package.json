@@ -1,0 +1,19 @@
+{
+  "name": "dinner-rec",
+  "version": "1.0.0",
+  "description": "The purpose of this project is to record to eat out.\r # Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YutoJJ/dinner-rec.git"
+  },
+  "author": "YutoJJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YutoJJ/dinner-rec/issues"
+  },
+  "homepage": "https://github.com/YutoJJ/dinner-rec#readme"
+}
