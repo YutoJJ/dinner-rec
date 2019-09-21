@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const restaurant = require('./model');
 
-const router = express.Router();
+
 
 router.route('/')
   .get((req,res)=>{

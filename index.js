@@ -57,8 +57,6 @@ db.on('connected',() =>{
 });
 
 
-app.use('/restaurant',require('./restaurant/routes'));
-
 app.post('/login', 
   passport.authenticate('local', { 
     successRedirect: '/', 
@@ -67,6 +65,7 @@ app.post('/login',
   })
 );
 
+app.use('/restaurant',require('./restaurant/routes'));
 
 app.get('/', (req, res) => {
     if(req.secure){
