@@ -6,7 +6,7 @@ module.exports = (app, port) => {
             next();
         }else{
             console.log('re unsecure, force redirect');
-            const proxypath = process.env.PROXY_PASS || '' ;
+            const proxypath = process.env.PROXY_PASS || '' 
             res.redirect(301, `https://${req.headers.host}${proxypath}${req.url}`);
         }
     });
