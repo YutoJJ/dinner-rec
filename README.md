@@ -1,15 +1,17 @@
 # dinner-rec
 The purpose of this project is to record to eat out.
-# Description
 
+# Description
+You can regist a restaurant data that you visited.
+And you can show 
 
 # Kind of data
-- location
+- restaurant name
 
-- kind of restaurant
+- address(location)
 
-- name
+- visited date
 
-- kind of food
+- favorite menu
 
-- 
+- note(remarks)
